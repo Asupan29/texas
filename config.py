@@ -14,16 +14,16 @@ load_dotenv("config.env")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "10064016"))
+APP_ID = int(os.environ.get("APP_ID", "26543176"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "b9ca5d9a6c625a890af28db4adf50cf4")
+API_HASH = os.environ.get("API_HASH", "9a86e743ad7cb3ac508262287f7b42c6")
 
 # ID Channel Database
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Xflskay")
+OWNER = os.environ.get("OWNER", "saya_wiki")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((2118671268,1668766845,1924219811))
+ADMINS.extend((2118671268,1668766845,1924219811,828438551))
 
 
 LOG_FILE_NAME = "logs.txt"
