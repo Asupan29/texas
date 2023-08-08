@@ -44,7 +44,7 @@ class Bot(Client):
         except Exception as a:
             self.LOGGER(__name__).warning(a)
             self.LOGGER(__name__).info(
-                "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                "Bot Berhenti. Gabung Group https://t.me/xgcwiki untuk Bantuan"
             )
             sys.exit()
 
@@ -69,7 +69,7 @@ class Bot(Client):
                     f"Pastikan @{self.username} adalah admin di Channel/Group Force Subs Tersebut, Chat ID Saat Ini: {FORCE_SUB_1}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/xgcwiki untuk Bantuan"
                 )
                 sys.exit()
 
@@ -94,7 +94,7 @@ class Bot(Client):
                     f"Pastikan @{self.username} adalah admin di Channel/Group Force Subs Tersebut, Chat ID Saat Ini: {FORCE_SUB_2}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/xgcwiki untuk Bantuan"
                 )
                 sys.exit()
 
@@ -119,7 +119,7 @@ class Bot(Client):
                     f"Pastikan @{self.username} adalah admin di Channel/Group Force Subs Tersebut, Chat ID Saat Ini: {FORCE_SUB_3}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/xgcwiki untuk Bantuan"
                 )
                 sys.exit()
 
@@ -144,7 +144,7 @@ class Bot(Client):
                     f"Pastikan @{self.username} adalah admin di Channel/Group Force Subs Tersebut, Chat ID Saat Ini: {FORCE_SUB_4}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/xgcwiki untuk Bantuan"
                 )
                 sys.exit()
 
@@ -191,7 +191,7 @@ class Bot(Client):
                     f"Pastikan @{self.username} adalah admin di Channel/Group Force Subs Tersebut, Chat ID Saat Ini: {FORCE_SUB_6}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/xgcwiki untuk Bantuan"
                 )
                 sys.exit()
 
@@ -209,12 +209,12 @@ class Bot(Client):
                 f"Pastikan @{self.username} adalah admin di Channel DataBase anda, CHANNEL_ID Saat Ini: {CHANNEL_ID}"
             )
             self.LOGGER(__name__).info(
-                "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                "Bot Berhenti. Gabung Group https://t.me/xgcwiki untuk Bantuan"
             )
             sys.exit()
 
         self.LOGGER(__name__).info(
-            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot"
+            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/xgcwiki"
         )
 
     async def stop(self, *args):
