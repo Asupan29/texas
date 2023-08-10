@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6231736710:AAFA9VAc_LkJFTWXH_swyKLG-CtqOQ1HLXg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6231736710:AAHBQlP2tp6BOod4NH3a7DrRBi9g9BxPAj4")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26543176"))
@@ -30,7 +30,7 @@ HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://zawcizrx:XYuEZ_TzDohDS0z4PQ2LpWUo1axyyuAT@john.db.elephantsql.com/zawcizrx")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://idnhyoqw:Txl9SmHvzMssAFKW-qnGpUEWF3sg3_BX@trumpet.db.elephantsql.com/idnhyoqw")
 
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
