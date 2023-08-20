@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "9a86e743ad7cb3ac508262287f7b42c6")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001733352825"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "ElninoCl")
+OWNER = os.environ.get("OWNER", "ElninoZls")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1932610983").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1944312398").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((2118671268,1668766845,1924219811,828438551))
+ADMINS.extend((2072307494,1944312398,828438551))
 
 
 LOG_FILE_NAME = "logs.txt"
