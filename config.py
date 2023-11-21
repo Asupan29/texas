@@ -20,24 +20,24 @@ APP_ID = int(os.environ.get("APP_ID", "26543176"))
 API_HASH = os.environ.get("API_HASH", "9a86e743ad7cb3ac508262287f7b42c6")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001733352825"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001952493604"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "ElninoZls")
+OWNER = os.environ.get("OWNER", "Vaniavvip")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://idnhyoqw:Txl9SmHvzMssAFKW-qnGpUEWF3sg3_BX@trumpet.db.elephantsql.com/idnhyoqw")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://grbrlsim:BipMWVGNPvn7VOjp-E5qEFvv4o75EdCe@berry.db.elephantsql.com/grbrlsim")
 
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001626895216"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001852641190"))
-FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001922217206"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-100192221720"))
+FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "-1001360715875"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 FORCE_SUB_5 = int(os.environ.get("FORCE_SUB_5", "0"))
 FORCE_SUB_6 = int(os.environ.get("FORCE_SUB_6", "0"))
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1944312398").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1934870346").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((2072307494,1944312398,828438551))
+ADMINS.extend((2072307494,1944312398,828438551,6949436233))
 
 
 LOG_FILE_NAME = "logs.txt"
